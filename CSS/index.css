@@ -279,6 +279,7 @@ header h1 {
   width: 100%;
   align-items: center;
   background-color: #606060;
+  height: 60px;
 }
 #header ul {
   display: flex;
@@ -295,9 +296,35 @@ ul {
   border-radius: 16px;
   background-color: #BEBEBE;
 }
-li {
-  margin: 0 10px;
+.login-tab {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+  padding-bottom: 20px;
 }
-.button {
-  display: flex;
+.login {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 175px;
+  height: 15%;
+  background-color: #2A2A2A;
+  border: 1px solid #004612;
+  border-left: none;
+  z-index: 2;
+}
+.login ul li {
+  list-style-type: none;
+  font-size: 24px;
+  padding-top: 7.5px;
+  padding-left: 10px;
+  text-align: center;
+  width: 200px;
+}
+.login--open {
+  display: block;
+}
+#innerNav {
+  padding-top: 30px;
 }
