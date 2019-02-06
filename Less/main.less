@@ -109,7 +109,7 @@
   }
   a {
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    color: #3fb1a3;
+    color: black;
     text-decoration: none;
   
   }
@@ -181,69 +181,58 @@
     display: flex;
     justify-content: center;    
     p {
-        background-color: white;
-        padding: 5%;
-        text-align: center;
-        margin-bottom: .5%;
+      padding: 5%;
+      text-align: center;
+      margin-bottom: .5%;
         
     }
 }
 
 #main-content {
-    width: 100%;
-    flex-wrap: wrap;
-    p {   
-      @media(min-width:500px) {
-      width: 49%;
-      display: flex;
-      justify-content: space-between;
-      margin: 5px 5px;
+  width: 100%;
+  flex-wrap: wrap;
+  p {   
+    @media(min-width:500px) {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
     }
     }
 }
 
 #bottom-content {
-    width: 100%;
-    background: #45AB60;
-    p {
-        color: white;
-    }
+  height: 5rem;
+  width: 100%;
+  background: #45AB60;
+
 }
 #banner {
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
-    background: white;
-    width: 100%;
-   text-align: center;
-   background: #45AB60;
-   color: white;
-   height: 250px;
-   .button {
-     border: solid 2px white;
-    padding: 2% 4%;
-    color: white;
-   }
-
-   .menu-icon {
-    
-    display: flex;
-    justify-content: left;
-    position: absolute;
-    width: 100%;
-    filter: invert(100%);
-    text-decoration: none;
-
-  
-
-    img {
-      margin-left: 15px;
-      margin-top: 15px
-       
-    }
-   }
+  display: flex;
+  justify-content: center;
+  background: white;
+  width: 100%;
+  text-align: center;
+  background: #81CF96;
+  color: white;
+  height: 250px;
 }
 
 .page-bottom {
-    margin-top: 50px;
+  display:flex;
+  height: 75px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+  background-color: #606060;
+  p {
+    margin-top: 30px;
+    color: white;
+  }
+}
+
+#h1 {
+  @media(max-width: 500px) {
+    font-size: 180%;
+  }
 }
