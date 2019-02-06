@@ -1,0 +1,46 @@
+STYLE GUIDE:
+
+Header Fonts: Source Sans Pro
+Body Fonts: Open Sans
+
+https://fonts.googleapis.com/css?family=Open+Sans%7CSource+Sans+Pro
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+Jumbotron Font Size: 50px
+Header Font Size: 30px
+Regular Font Size: 20px
+Smalltext Font Size: 16px
+
+Colors:
+
+white: #FFFFFF
+light: #BEBEBE
+gray:  #606060
+dark:  #2A2A2A
+
+lightGreen2: #81CF96
+lightGreen1: #45AB60
+green:       #20943E
+darkGreen1:  #0B7025
+darkGreen2:  #004612
+
+danger:      #E8241F
+warning:     #E8E01F
+success:     #29BE1A
+
+Style suggestions:
+- The navbar should be light text over dark background. This allows the navigation to be easily identified in the design. The title of the project (International Rural School Report) should be visible on the left side of the navbar.
+
+- Use the greens sparingly, as accent colors. A good use of greens would be to highlight a button of major importance (like sign up?). Since most of the page is light, you'll probably want to lean towards the lighter greens.
+
+- Danger/Warning/Success colors are a little more prominent for the app itself, as they're used to highlight specific states of items. If you can find a way to integrate them into the marketing page, then more power to you, but they're not of any necessity.
+
+- Gray and Dark colors are ideal for text and borders. Light/White are ideal for backgrounds. To get a dark theme (such as suggested for the nav bar), just reverse this.
+
+- Use the Twenty template for reference on spacing and other minor things.
+
+RESPONSIVE SIZES:
+Mobile: Default ;
+Tablet: >500px;
+Desktop: >1000px;
